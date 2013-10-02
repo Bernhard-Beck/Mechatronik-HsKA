@@ -140,7 +140,10 @@ $(document).on({
             
             if(timer_start > 0){ // Falls Stoppuhr läuft (= alle Karten sind eingeblendet - Spielbeginn bzw. Joker)
                 timer_duration = new Date - timer_start; // Prüfen, wie lange die Karten eingeblendet waren
-                hideAll(); // alle Karten wieder umdrehen
+                timeouts.push(new Timer(function(){
+                    hideAll(); // alle Karten wieder umdrehen
+                },500));
+                
                 
                 if(joker_inuse){ // Joker aktiv
                     var joker_malus = (Math.floor(timer_duration/1000) + 1)*factor_joker; // Minus-Punkte für Joker (timer_duration in ms)
