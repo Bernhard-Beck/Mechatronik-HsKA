@@ -79,11 +79,15 @@
     <icon src="bilder/icon/icon-72.png"				gap:platform="ios"			width="72"		height="72" />
     <icon src="bilder/icon/icon-57-2x.png"			gap:platform="ios"			width="114"		height="114" />
     <icon src="bilder/icon/icon-72-2x.png"			gap:platform="ios"			width="144"		height="144" />
-    <icon src="icon.png"							gap:platform="webos" />
+	<icon src="icon.png"							gap:platform="webos" />
     <icon src="icon.png"							gap:platform="blackberry" />
     <icon src="icon.png"							gap:platform="blackberry"	gap:state="hover"/>
     <icon src="icon.png"							gap:platform="winphone" />
     <icon src="icon.png"							gap:platform="winphone"		gap:role="background" />
+	<!-- Apps-Icons für iOS 7 -->
+	<icon src="bilder/icon/icon-76.png"				gap:platform="ios"			width="76"		height="76" />
+	<icon src="bilder/icon/icon-120.png"			gap:platform="ios"			width="120"		height="120" />
+	<icon src="bilder/icon/icon-152.png"			gap:platform="ios"			width="152"		height="152" />
 
     <!-- Ladescreen festlegen -->
     <gap:splash src="bilder/splash/screen-xhdpi-portrait.png"				gap:platform="android"		gap:density="xhdpi" />
