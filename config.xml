@@ -69,6 +69,10 @@
 	
     <!-- Barcodescanner-Plugin einbinden -->
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+	
+	<!-- App für die Plattformen iOS und Android kompilieren -->
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
 
     <!-- App-Icons festlegen -->
 	<icon src="icon.png" />
