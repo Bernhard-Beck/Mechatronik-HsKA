@@ -57,8 +57,8 @@
 		
 			// Die aktuelle Position konnte nicht ermittelt werden.
 			function onError(error) {
-				$("#nopos").popup("open", {positionTo: "window"});				// Popup mit Fehlermeldung wird angezeigt
 				no_pos_info;													// Karte wird ohne Standortinformationen erstellt
+				$("#nopos").popup("open", {positionTo: "window"});				// Popup mit Fehlermeldung wird angezeigt
 			}
   
   

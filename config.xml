@@ -11,8 +11,8 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
         xmlns:gap	= "http://phonegap.com/ns/1.0"
         id			= "de.hska.mt-app"
-        version		= "1.0.2"
-		versionCode	= "103">
+        version		= "1.0.3"
+		versionCode	= "104">
 
 	<!-- Name der App -->
     <name>
@@ -49,7 +49,7 @@
 
     <!-- Diverse plattformunabhängige Einstellungen für die App -->
     <preference name="phonegap-version"				value="2.9.0" />		  <!-- all: current version of PhoneGap --> 
-    <preference name="orientation"					value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"					value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"				value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"					value="false" />          <!-- all: hides the status bar at the top of the screen -->
     <preference name="load-url-timeout"				value="60000" />		  <!-- all: set the timeout to 60 sec, to prevent "the connection to the server was unsuccessful..."-errors on Android -->
